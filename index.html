@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Phillip Bryan">
+        <meta name="description" content="This is a simple javascipt webpage that helps quiz me on ipv4 address classes. ">
+        
+        <title>IPv4 Address Class Test</title>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-5">
+                <h1 class="display-4">IPv4 Address Classes</h1>
+            </div>
+            <div class="row">
+                    <div class="card my-5" style="width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">IP Randomizer</h5>
+                            <p class="card-text text-center mt-5">
+                                <span id="ip1">0</span>
+                                <span id="ip2">0</span>
+                                <span id="ip3">0</span>
+                                <span id="ip4">0</span>
+                            </p>
+                            <div id="classes" class="list-group list-group-flush">
+                                <button id="classA" type="button" class="list-group-item list-group-item-dark">
+                                    Class A
+                                </button>
+                                <button id="classB" type="button" class="list-group-item list-group-item-dark">
+                                    Class B
+                                </button>
+                                <button id="classC" type="button" class="list-group-item list-group-item-dark">
+                                    Class C
+                                </button>
+                                <button id="classD" type="button" class="list-group-item list-group-item-dark">
+                                    Class D
+                                </button>
+                                <button id="classE" type="button" class="list-group-item list-group-item-dark">
+                                    Class E
+                                </button>
+                            </div>
+                            <button id="btnRandom" class="btn btn-primary btn-lg btn-block mt-5">Randomize</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

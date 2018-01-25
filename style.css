@@ -1,0 +1,13 @@
+body{
+    background: #FF5722;
+}
+.card-body {
+    background: #FFCCBC;
+}
+
+span {
+    font-size: 3em;
+}
+#ip2, #ip3, #ip4 {
+    margin-left: .3em;
+}
